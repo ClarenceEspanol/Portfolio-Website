@@ -119,5 +119,17 @@
     width: 100%;   /* make it full width inside container */
     max-width: 350px; /* optional: keep it neat, not too wide */
   }
-  
+}
+
+/* Responsive: single column on small screens */
+@media screen and (max-width: 800px) {
+  #certificates {
+    margin: 2rem;
+  }
+  .certificates-container {
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+  }
+  .certificate-inner {
+    height: 400px;
+  }
 }

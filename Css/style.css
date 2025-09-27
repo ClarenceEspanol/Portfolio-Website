@@ -458,6 +458,78 @@ article .icon {
   transform: translateY(-5px);
 }
 
+
+/* Certificates*/
+/* Certificates section */
+/* Certificates */
+#certificates {
+  position: relative;
+  margin: 4rem 10rem;
+}
+
+.certificates-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns default */
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.certificate-card {
+  perspective: 1000px; /* Needed for flip effect */
+  cursor: pointer;
+}
+
+.certificate-inner {
+  position: relative;
+  width: 100%;
+  height: 500px; /* set height for all cards */
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 1.5rem;
+}
+
+.certificate-card.flipped .certificate-inner {
+  transform: rotateY(180deg);
+}
+
+.certificate-front,
+.certificate-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.certificate-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.certificate-back {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  transform: rotateY(180deg);
+  text-align: center;
+  overflow-y: auto;
+}
+
+.certificate-back h3 {
+  margin-bottom: 1rem;
+}
+
+.certificate-back p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
 /* CONTACT */
 #contact {
   display: flex;
