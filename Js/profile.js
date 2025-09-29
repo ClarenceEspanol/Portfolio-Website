@@ -145,7 +145,6 @@ if (downloadBtn) {
     doc.setFont("times", "normal"); doc.setFontSize(11);
     const skills = [
        "HTML, CSS, JavaScript (Experienced)",
-        "UI/UX Design (Experienced)",
         "Python, Java, C++ (Basics)",
         "Database Integration (Intermediate)",
         "WordPress E-Commerce (Intermediate)",
@@ -206,7 +205,6 @@ if (downloadBtn) {
     doc.setFont("times", "normal"); doc.setFontSize(11);
     const resumeSkills = [
       "HTML, CSS, JavaScript (Experienced)",
-      "UI/UX Design (Experienced)",
       "Python, Java, C++ (Basics)",
       "Database Integration (Intermediate)",
       "WordPress E-Commerce (Intermediate)",
