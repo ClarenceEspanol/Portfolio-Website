@@ -12,6 +12,19 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #121212; /* dark background */
   color: #e0e0e0; /* light text for dark theme */
+  padding-top: 17vh; /* match the desktop nav height */
+}
+/* Keep navigation on top */
+/* ✅ Fix both desktop and mobile navs */
+#desktop-nav,
+#hamburger-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #121212;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 html {
@@ -310,13 +323,6 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
-
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
-
 .details-container {
   padding: 1.5rem;
   flex: 1;

@@ -142,10 +142,4 @@ document.addEventListener("DOMContentLoaded", () => {
   sectionContainer.appendChild(detailsContainer);
 
   aboutSection.appendChild(sectionContainer);
-
-  // Optional: add down arrow
-  const arrow = document.createElement("i");
-  arrow.className = "fas fa-arrow-down icon arrow";
-  arrow.setAttribute("onclick", "location.href='./#experience'");
-  aboutSection.appendChild(arrow);
 });

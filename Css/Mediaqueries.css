@@ -16,9 +16,30 @@
   #desktop-nav {
     display: none;
   }
-  #hamburger-nav {
-    display: flex;
+   #desktop-nav {
+    display: none;
   }
+   #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; /* make the bar taller */
+    padding: 0 2rem; /* wider left/right padding */
+
+    /* Keep it fixed on top */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #121212; /* ensure bg covers content */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  /* Push content down so it doesn’t hide behind nav */
+  body {
+    padding-top: 70px;
+  }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -26,9 +47,6 @@
   #profile,
   .section-container {
     display: block;
-  }
-  .arrow {
-    display: none;
   }
   section,
   .section-container {

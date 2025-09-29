@@ -53,6 +53,13 @@ document.addEventListener("DOMContentLoaded", () => {
       issuer: "DICT Region IV-A",
       date: "June 19, 2024",
       description: "Blockchain technology provides secure, decentralized, and transparent record-keeping. It is widely applied in finance, supply chains, digital contracts, and startup ecosystems."
+    },
+    {
+      name: "Soon to be Updated",
+      img: "Images/soon.png", // placeholder image
+      issuer: "Coming Soon",
+      date: "",
+      description: "Stay tuned! More exciting certificates will be added soon."
     }
   ];
 

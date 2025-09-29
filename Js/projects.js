@@ -17,7 +17,26 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "Images/BantayTubig Project.png",
       description: "Contributed frontend design and prototyping for a water quality monitoring system. The app tracks, analyzes, and visualizes water data, supporting real-time monitoring. This was developed as our Capstone Project.",
       link: "https://bantaytubig.onrender.com/login"
+    },
+    {
+      title: "Bayani Brew Prototype Website",
+      img: "Images/BayaniBrew Project.png",
+      description: "A simple prototype website built using HTML and CSS. Showcases the brand and layout design, but no functional features have been implemented.",
+      link: "https://clarenceespanol.github.io/final-webisite/Home.html"
+    },
+    {
+      title: "47th OLLCF Founding Anniversary Website",
+      img: "Images/Founding Anniv Project.png",
+      description: "A static website built using HTML and CSS highlighting the 47th OLLCF Founding Anniversary events. Focused on event highlights with no JavaScript functionalities.",
+      link: "https://clarenceespanol.github.io/midterm-project/home.html"
+    },
+    {
+    title: "Soon to be Updated",
+    img: "Images/soon.png", // You can create a placeholder image or use a generic one
+    description: "Stay tuned! More exciting projects will be added soon.",
+    link: "#"
     }
+    
   ];
 
   const projectsSection = document.getElementById("projects");
@@ -48,9 +67,4 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     container.appendChild(card);
   });
-  // Add down arrow to scroll to Contact section
-const projectsArrow = document.createElement("i");
-projectsArrow.className = "fas fa-arrow-down icon arrow";
-projectsArrow.setAttribute("onclick", "location.href='./#contact'");
-projectsSection.appendChild(projectsArrow);
 });

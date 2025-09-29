@@ -67,9 +67,4 @@ document.addEventListener("DOMContentLoaded", () => {
     sectionDiv.appendChild(articleContainer);
     container.appendChild(sectionDiv);
   });
-  // Add down arrow to scroll to Projects section
-const experienceArrow = document.createElement("i");
-experienceArrow.className = "fas fa-arrow-down icon arrow";
-experienceArrow.setAttribute("onclick", "location.href='./#projects'");
-experienceSection.appendChild(experienceArrow);
 });
