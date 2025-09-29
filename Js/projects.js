@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
     title: "Soon to be Updated",
-    img: "Images/Soon.png",
+    img: "Images/Soon.png", // You can create a placeholder image or use a generic one
     description: "Stay tuned! More exciting projects will be added soon.",
     link: "#"
     }
@@ -68,4 +68,3 @@ document.addEventListener("DOMContentLoaded", () => {
     container.appendChild(card);
   });
 });
-

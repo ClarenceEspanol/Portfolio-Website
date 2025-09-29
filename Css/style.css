@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden; /* prevents horizontal scroll */
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #121212; /* dark background */
@@ -15,16 +19,14 @@ body {
   padding-top: 17vh; /* match the desktop nav height */
 }
 /* Keep navigation on top */
-/* ✅ Fix both desktop and mobile navs */
 #desktop-nav,
 #hamburger-nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 10000; /* higher than sections & AOS layers */
   background-color: #121212;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 html {
