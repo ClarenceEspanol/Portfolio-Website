@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       name: "Soon to be Updated",
-      img: "Images/soon.png", // placeholder image
+      img: "Images/Soon.png", // placeholder image
       issuer: "Coming Soon",
       date: "",
       description: "Stay tuned! More exciting certificates will be added soon."

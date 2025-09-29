@@ -1,32 +1,34 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const experienceData = {
-    sections: [
-      {
-        title: "Technical Skills",
-        items: [
-          { icon: "fab fa-html5", name: "HTML", level: "Experienced", color: "#e34c26" },
-          { icon: "fab fa-css3-alt", name: "CSS", level: "Experienced", color: "#264de4" },
-          { icon: "fab fa-js", name: "JavaScript", level: "Experienced", color: "#f7df1e" },
-          { icon: "fas fa-pencil-ruler", name: "UI/UX Design", level: "Experienced" },
-          { icon: "fab fa-python", name: "Python", level: "Basics", color: "#3776ab" },
-          { icon: "fas fa-coffee", name: "Java", level: "Basics" },
-          { icon: "fas fa-code", name: "C++", level: "Basics" },
-          { icon: "fas fa-database", name: "Database Integration", level: "Intermediate" },
-          { icon: "fab fa-wordpress", name: "WordPress E-Commerce", level: "Intermediate", color: "#21759b" },
-          { icon: "fas fa-project-diagram", name: "Prototyping", level: "Basics" },
-          { icon: "fas fa-file-alt", name: "Technical Documentation", level: "Experienced" }
-        ]
-      },
-      {
-        title: "Work & Projects",
-        items: [
-          { icon: "fas fa-laptop-code", name: "BSIT Projects", description: "Frontend Dev, UI Design, IoT Support" },
-          { icon: "fas fa-shopping-cart", name: "E-Commerce Website", description: "Full-Stack Development" },
-          { icon: "fab fa-wordpress", name: "WordPress E-Commerce", description: "Website Development" }
-        ]
-      }
-    ]
-  };
+ const experienceData = {
+  sections: [
+    {
+      title: "Technical Skills",
+      items: [
+        { icon: "fab fa-html5", name: "HTML", level: "Experienced", color: "#e34c26" },
+        { icon: "fab fa-css3-alt", name: "CSS", level: "Experienced", color: "#264de4" },
+        { icon: "fab fa-js", name: "JavaScript", level: "Experienced", color: "#f7df1e" },
+        { icon: "fas fa-pencil-ruler", name: "UI/UX Design", level: "Experienced" },
+        { icon: "fab fa-python", name: "Python", level: "Basics", color: "#3776ab" },
+        { icon: "fas fa-coffee", name: "Java", level: "Basics" },
+        { icon: "fas fa-code", name: "C++", level: "Basics" },
+        { icon: "fas fa-database", name: "Database Integration", level: "Intermediate" },
+        { icon: "fab fa-wordpress", name: "WordPress E-Commerce", level: "Intermediate", color: "#21759b" },
+        { icon: "fas fa-project-diagram", name: "Prototyping", level: "Basics" },
+        { icon: "fas fa-file-alt", name: "Technical Documentation", level: "Experienced" },
+        { icon: "fas fa-window-maximize", name: "VB.NET", level: "Intermediate" },
+        { icon: "fab fa-php", name: "PHP", level: "Intermediate", color: "orange" }
+      ]
+    },
+    {
+      title: "Work & Projects",
+      items: [
+        { icon: "fas fa-laptop-code", name: "BSIT Projects", description: "Frontend Dev, UI Design, IoT Support" },
+        { icon: "fas fa-shopping-cart", name: "E-Commerce Website", description: "Full-Stack Development" },
+        { icon: "fab fa-wordpress", name: "WordPress E-Commerce", description: "Website Development" }
+      ]
+    }
+  ]
+};
 
   const experienceSection = document.getElementById("experience");
   experienceSection.innerHTML = `

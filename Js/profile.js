@@ -144,12 +144,14 @@ if (downloadBtn) {
     y += 8; doc.text("Technical Skills", 20, y); y += 6;
     doc.setFont("times", "normal"); doc.setFontSize(11);
     const skills = [
-      "HTML, CSS, JavaScript (Experienced)",
-      "UI/UX Design (Experienced)",
-      "Python, Java, C++ (Basics)",
-      "Database Integration (Intermediate)",
-      "WordPress E-Commerce (Intermediate)",
-      "Prototyping & Technical Documentation",
+       "HTML, CSS, JavaScript (Experienced)",
+        "UI/UX Design (Experienced)",
+        "Python, Java, C++ (Basics)",
+        "Database Integration (Intermediate)",
+        "WordPress E-Commerce (Intermediate)",
+        "Prototyping & Technical Documentation",
+        "VB.NET (Intermediate)",
+        "PHP (Intermediate)"
     ];
     skills.forEach(skill => { y = addWrappedText("• " + skill, 25, y, 160); });
 
@@ -209,6 +211,8 @@ if (downloadBtn) {
       "Database Integration (Intermediate)",
       "WordPress E-Commerce (Intermediate)",
       "Prototyping & Technical Documentation",
+      "VB.NET (Intermediate)",
+      "PHP (Intermediate)"
     ];
     resumeSkills.forEach(skill => { y = addWrappedText("• " + skill, 25, y, 160); });
 
