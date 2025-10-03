@@ -20,6 +20,43 @@ document.addEventListener("DOMContentLoaded", () => {
   // Certificates data with description, date, and issuer
   const certificates = [
     {
+      name: "Installing and Configuring Computer Systems",
+      img: "Images/Certificates/TESDA_Installing and Configuring Computer Systems.png",
+      issuer: "TESDA – NITESD",
+      date: "March 30, 2023",
+      description: "Completed TESDA Online Program course covering installation and configuration of computer systems, ensuring proper setup and performance."
+    },
+    {
+      name: "Introduction to CSS",
+      img: "Images/Certificates/TESDA_Introduction to CSS.png",
+      issuer: "TESDA – NITESD",
+      date: "March 23, 2023",
+      description: "Completed TESDA Online Program course introducing CSS, focusing on styling, layout, and responsive design techniques for web development."
+    },
+    {
+      name: "Maintaining Computer Systems and Networks",
+      img: "Images/Certificates/TESDA_Maintaining Computer Systems and Networks.png",
+      issuer: "TESDA – NITESD",
+      date: "May 11, 2023",
+      description: "Completed TESDA Online Program course on maintaining computer systems and networks, focusing on troubleshooting, diagnostics, and upkeep."
+    },
+    {
+      name: "Setting Up Computer Networks",
+      img: "Images/Certificates/TESDA_Setting Up Computer Networks.png",
+      issuer: "TESDA – NITESD",
+      date: "May 11, 2023",
+      description: "Completed TESDA Online Program course covering setup of computer networks, including configuration and connectivity."
+    },
+    {
+      name: "Setting Up Computer Servers",
+      img: "Images/Certificates/TESDA_Setting Up Computer Servers.png",
+      issuer: "TESDA – NITESD",
+      date: "May 11, 2023",
+      description: "Completed TESDA Online Program course on setting up computer servers, ensuring proper configuration and deployment for network operations."
+    },
+
+    // --- Existing Certificates ---
+    {
       name: "CyberCrime Prevention",
       img: "Images/Certificates/CyberCrime Prevention.png",
       issuer: "DICT",
@@ -62,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Stay tuned! More exciting certificates will be added soon."
     }
   ];
+
 
   certificates.forEach(cert => {
     const card = document.createElement("div");
