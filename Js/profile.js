@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
         img: "Images/profile-clarence.jpg",
         intro: "Hello, I'm",
         name: "Clarence P. Español",
-        role: "Frontend Developer",
+        role: "Full Stack Developer",
         buttons: [
             { text: "Download", id: "download-cv", type: "dropdown" },
             { text: "Contact Info", link: "#contact", type: "link" }

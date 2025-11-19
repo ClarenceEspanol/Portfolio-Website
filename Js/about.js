@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       icon: "fas fa-briefcase",
       title: "Experience",
-      text: "Frontend Developer, UI/UX Design & Research (2023–Present)"
+      text: "Full Stack Developer, UI/UX Design & Research (2023–Present)"
     },
     {
       icon: "fas fa-graduation-cap",
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const aboutText = document.createElement("p");
   aboutText.innerHTML = `
-    I am an aspiring <strong>Front-End Developer</strong> with occasional experience in back-end development. 
+    I am an aspiring <strong>Full Stack Developer</strong> with occasional experience in back-end development. 
     From Labo Camarines Norte, I contribute to building and optimizing projects that focus on functionality, usability, 
     and enhancing the overall user experience. I also assist with documentation, IoT hardware design, and 
     research-related tasks. In addition, I have hands-on experience developing a full-stack e-commerce website 
