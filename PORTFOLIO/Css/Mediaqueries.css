@@ -1,0 +1,156 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+   #desktop-nav {
+    display: none;
+  }
+   #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; /* make the bar taller */
+    padding: 0 2rem; /* wider left/right padding */
+
+    /* Keep it fixed on top */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #121212; /* ensure bg covers content */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  /* Push content down so it doesn’t hide behind nav */
+  body {
+    padding-top: 70px;
+  }
+
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+  .about-slideshow-container {
+    margin: 0 auto 2rem; /* center it with bottom margin */
+  }
+  .about-details-container {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+   section {
+    margin: 0 2%;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+    /* Projects grid fix for small screens */
+  #projects .about-containers {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 per row */
+    gap: 1.5rem;
+    justify-items: center;   /* centers the items horizontally */
+  }
+
+  #projects .project-box {
+    width: 100%;   /* make it full width inside container */
+    max-width: 350px; /* optional: keep it neat, not too wide */
+  }
+}
+
+/* Responsive: single column on small screens */
+@media screen and (max-width: 800px) {
+  #certificates {
+    margin: 2rem;
+  }
+  .certificates-container {
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+  }
+  .certificate-inner {
+    height: 400px;
+  }
+}
