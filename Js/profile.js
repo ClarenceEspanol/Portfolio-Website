@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
         socials: [
             { icon: "fab fa-facebook", link: "https://www.facebook.com/clrnxvt/" },
-            { icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/clarence-espanol-595742317" },
+            { icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/clarence-español-595742317" },
             { icon: "fab fa-github", link: "https://github.com/ClarenceEspanol" }
         ]
     };
@@ -89,3 +89,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
