@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self'; 
+    img-src 'self' data: https:; 
+    script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; 
+    style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; 
+    font-src 'self' https://cdnjs.cloudflare.com; 
+    connect-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; 
+    object-src 'none'; 
+    frame-ancestors 'none'; 
+    base-uri 'self'; 
+    form-action 'self';
+    ">
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -80,3 +93,4 @@
     <script src="Js/footer.js"></script>
   </body>
 </html>
+
