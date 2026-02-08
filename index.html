@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clarence Español | Portfolio</title>
+    <link rel="stylesheet" href="Css/style.css"/>
+    <link rel="stylesheet" href="Css/Mediaqueries.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav id="desktop-nav" data-aos="fade-down">
+      <div class="logo">Clarence Español</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav" data-aos="fade-down">
+      <div class="logo">Clarence Español</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+     <!-- PROFILE -->
+    <section id="profile" data-aos="fade-right"></section>
+
+    <!-- ABOUT -->
+    <section id="about" data-aos="fade-up"></section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" data-aos="zoom-in"></section>
+
+    <!-- PROJECTS -->
+    <section id="projects" data-aos="fade-left"></section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" data-aos="fade-up"></section>
+
+    <!-- CONTACT -->
+    <section id="contact" data-aos="fade-up"></section>
+
+    <!-- FOOTER -->
+    <footer data-aos="fade-in"></footer>
+
+    <!-- PptxGenJS library -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+      <!-- My section scripts -->
+    <script type="module" src="dist/profile.js"></script>
+    <script type="module" src="dist/about.js"></script>
+    <script type="module" src="dist/experience.js"></script>
+    <script type="module" src="dist/projects.js"></script>
+    <script type="module" src="dist/contact.js"></script>
+    <script type="module" src="dist/certificates.js"></script>
+    <script type="module" src="dist/footer.js"></script>
+    <!-- Initialize AOS -->
+    <script>
+      AOS.init({
+        duration: 1000, // animation duration
+        once: true,     // animate only once
+        mirror: false   // don't animate when scrolling back up
+      });
+
+      // Refresh AOS after DOMContentLoaded so it sees dynamically added sections
+      window.addEventListener("DOMContentLoaded", () => {
+        AOS.refresh();
+      });
+    </script>
+
+
+  </body>
+</html>

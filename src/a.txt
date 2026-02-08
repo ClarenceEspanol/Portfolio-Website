@@ -1,0 +1,81 @@
+// Certificates data
+  const certificates: Certificate[] = [
+    // add all your certificates here...
+    {
+      name: "Installing and Configuring Computer Systems",
+      img: "Images/Certificates/TESDA_Installing and Configuring Computer Systems.png",
+      issuer: "TESDA – NITESD",
+      date: "March 30, 2023",
+      description: "Completed TESDA Online Program course covering installation and configuration of computer systems, ensuring proper setup and performance."
+    },
+    {
+      name: "Introduction to CSS",
+      img: "Images/Certificates/TESDA_Introduction to CSS.png",
+      issuer: "TESDA – NITESD",
+      date: "March 23, 2023",
+      description: "Completed TESDA Online Program course introducing CSS, focusing on styling, layout, and responsive design techniques for web development."
+    },
+    {
+      name: "Maintaining Computer Systems and Networks",
+      img: "Images/Certificates/TESDA_Maintaining Computer Systems and Networks.png",
+      issuer: "TESDA – NITESD",
+      date: "May 11, 2023",
+      description: "Completed TESDA Online Program course on maintaining computer systems and networks, focusing on troubleshooting, diagnostics, and upkeep."
+    },
+    {
+      name: "Setting Up Computer Networks",
+      img: "Images/Certificates/TESDA_Setting Up Computer Networks.png",
+      issuer: "TESDA – NITESD",
+      date: "May 11, 2023",
+      description: "Completed TESDA Online Program course covering setup of computer networks, including configuration and connectivity."
+    },
+    {
+      name: "Setting Up Computer Servers",
+      img: "Images/Certificates/TESDA_Setting Up Computer Servers.png",
+      issuer: "TESDA – NITESD",
+      date: "May 11, 2023",
+      description: "Completed TESDA Online Program course on setting up computer servers, ensuring proper configuration and deployment for network operations."
+    },
+    {
+      name: "CyberCrime Prevention",
+      img: "Images/Certificates/CyberCrime Prevention.png",
+      issuer: "DICT",
+      date: "May 20, 2024",
+      description: "Cybercrime prevention is the practice of protecting computers, networks, and data from illegal access or attacks. It involves awareness, security measures, and legal frameworks to protect digital assets."
+    },
+    {
+      name: "PC Hardware Installation",
+      img: "Images/Certificates/Pc Hardware Installation.png",
+      issuer: "ILCDB",
+      date: "October 27-29, 2022",
+      description: "PC hardware installation involves assembling and setting up computer components such as CPU, RAM, storage, and peripherals. Proper installation ensures functionality, performance, and longevity of the system."
+    },
+    {
+      name: "The Road to Digitalization Leads Through Cybersecurity",
+      img: "Images/Certificates/The Road to Digitalization Leads Through Cybersecurity.png",
+      issuer: "ILCDB",
+      date: "October 28, 2022",
+      description: "Digitalization requires strong cybersecurity practices to protect data, infrastructure, and users from cyber threats. This includes encryption, access controls, monitoring, and user education."
+    },
+    {
+      name: "The Role of AI in Education",
+      img: "Images/Certificates/The role of ai in education.png",
+      issuer: "DICT Region V",
+      date: "May 27, 2025",
+      description: "AI in education helps personalize learning, automate administrative tasks, and enhance decision-making. It provides adaptive learning experiences and supports educators with insights on student progress."
+    },
+    {
+      name: "Use of Blockchain",
+      img: "Images/Certificates/Use of blockchain.png",
+      issuer: "DICT Region IV-A",
+      date: "June 19, 2024",
+      description: "Blockchain technology provides secure, decentralized, and transparent record-keeping. It is widely applied in finance, supply chains, digital contracts, and startup ecosystems."
+    },
+    {
+      name: "Google UX Design Professional Certificate",
+      img: "Images/Certificates/Google_UX_Design.png",
+      issuer: "Coursera / Google",
+      date: "Dec 14, 2025",
+      description: "Completed the online, non-credit Google UX Design Professional Certificate including 7 courses."
+    }
+  ];
