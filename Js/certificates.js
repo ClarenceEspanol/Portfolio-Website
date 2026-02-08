@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             name: "JavaScript Essentials 1",
-            img: "Images/Certificates/Cisco_JavaScript_Essentials_1.png",
+            img: "Images/Certificates/Cisco_Javascript_Essentials_1.png",
             issuer: "Cisco Networking Academy / DICT-ITU DTC Initiative",
             date: "Nov 24, 2025",
             description: "Completed the online JavaScript Essentials 1 course through Cisco Networking Academy."
@@ -335,3 +335,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
