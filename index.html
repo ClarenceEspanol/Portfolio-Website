@@ -65,32 +65,18 @@
     <footer data-aos="fade-in"></footer>
 
     <!-- PptxGenJS library -->
-    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="Js/script.js"></script>
       <!-- My section scripts -->
-    <script type="module" src="dist/profile.js"></script>
-    <script type="module" src="dist/about.js"></script>
-    <script type="module" src="dist/experience.js"></script>
-    <script type="module" src="dist/projects.js"></script>
-    <script type="module" src="dist/contact.js"></script>
-    <script type="module" src="dist/certificates.js"></script>
-    <script type="module" src="dist/footer.js"></script>
-    <!-- Initialize AOS -->
-    <script>
-      AOS.init({
-        duration: 1000, // animation duration
-        once: true,     // animate only once
-        mirror: false   // don't animate when scrolling back up
-      });
-
-      // Refresh AOS after DOMContentLoaded so it sees dynamically added sections
-      window.addEventListener("DOMContentLoaded", () => {
-        AOS.refresh();
-      });
-    </script>
-
-
+    <script src="Js/profile.js"></script>
+    <script src="Js/about.js"></script>
+    <script src="Js/experience.js"></script>
+    <script src="Js/projects.js"></script>
+    <script src="Js/contact.js"></script>
+    <script src="Js/certificates.js"></script>
+    <script src="Js/footer.js"></script>
   </body>
 </html>
